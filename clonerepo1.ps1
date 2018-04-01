@@ -3,7 +3,7 @@ Param
 	[string]$Workspace,
 	[string]$BBUserName,
 	[string]$BBPassword,
-	[string]$BaseBranchName,
+	[string]$BaseBranchName
 
 )
 
