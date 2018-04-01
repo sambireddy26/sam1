@@ -24,8 +24,7 @@ try  {
 		Write-host "`n====== Repository Name:" $RepositoryName
 		
 		######### Clone Workspace
-		try
-		{
+	
 			Write-host "--------- Clone Repository:" $RepositoryName
 			cd $Workspace
             git clone -b $BaseBranchName https://$BBUserName':'$EncodedPassword@bitbucket.org/automationanywhere/$RepositoryName.git
@@ -40,6 +39,7 @@ try  {
             }
 
 		}
+		}
 	
 
 		catch
@@ -48,5 +48,3 @@ try  {
 			Exit 1
 		}
 
-}
-}
