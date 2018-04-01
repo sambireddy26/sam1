@@ -27,7 +27,7 @@ try  {
 	
 			Write-host "--------- Clone Repository:" $RepositoryName
 			cd $Workspace
-            git clone -b $BaseBranchName https://$BBUserName':'$EncodedPassword@bitbucket.org/automationanywhere/$RepositoryName.git
+            git clone -b $BaseBranchName https://$BBUserName':'$EncodedPassword@github.com/sambireddy26/$RepositoryName.git
 
             #$command = "git clone https://"+$BBUserName+":"+$BBPassword+"@bitbucket.org/automationanywhere/"+$RepositoryName+".git"
 	    #iex $command
