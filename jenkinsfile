@@ -11,7 +11,7 @@ stages {
       script {
          def GIT_BRANCH_LOCAL = 'master'
          }
-         git branch :'${BRANCH_NAME}',credentialsId: '8578c529-928d-45c8-9321-c7ed527a11b3',url: 'https://sambireddy26@bitbucket.org/sambireddy26/task1.git'
+         git branch :'${BRANCH_NAME}',credentialsId: '8578c529-928d-45c8-9321-c7ed527a11b3',url: 'https://github.com/sambireddy26/sam1.git'
       }
     }
    }
